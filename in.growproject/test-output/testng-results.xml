@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-09-30T22:13:59 IST" name="Suite" finished-at="2022-09-30T22:14:52 IST" duration-ms="53031">
+    <groups>
+    </groups>
+    <test started-at="2022-09-30T22:13:59 IST" name="Test" finished-at="2022-09-30T22:14:52 IST" duration-ms="53031">
+      <class name="testpackage.Logintest">
+        <test-method is-config="true" signature="launchbrowser(java.lang.String)[pri:0, instance:testpackage.Logintest@7674f035]" started-at="2022-09-30T22:13:55 IST" name="launchbrowser" finished-at="2022-09-30T22:13:59 IST" duration-ms="4517" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method is-config="true" signature="creatreobjects()[pri:0, instance:testpackage.Logintest@7674f035]" started-at="2022-09-30T22:13:59 IST" name="creatreobjects" finished-at="2022-09-30T22:13:59 IST" duration-ms="41" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creatreobjects -->
+        <test-method is-config="true" signature="launchbroser(java.lang.String)[pri:0, instance:testpackage.Logintest@7674f035]" started-at="2022-09-30T22:13:59 IST" name="launchbroser" finished-at="2022-09-30T22:14:05 IST" duration-ms="5924" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://groww.in/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbroser -->
+        <test-method signature="loginintoapp()[pri:1, instance:testpackage.Logintest@7674f035]" started-at="2022-09-30T22:14:05 IST" name="loginintoapp" finished-at="2022-09-30T22:14:08 IST" duration-ms="2368" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginintoapp -->
+        <test-method is-config="true" signature="quitbrowser()[pri:0, instance:testpackage.Logintest@7674f035]" started-at="2022-09-30T22:14:08 IST" name="quitbrowser" finished-at="2022-09-30T22:14:28 IST" duration-ms="20005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitbrowser -->
+        <test-method is-config="true" signature="launchbroser(java.lang.String)[pri:0, instance:testpackage.Logintest@7674f035]" started-at="2022-09-30T22:14:28 IST" name="launchbroser" finished-at="2022-09-30T22:14:29 IST" duration-ms="1785" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://groww.in/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbroser -->
+        <test-method signature="exploretheapp()[pri:2, instance:testpackage.Logintest@7674f035]" started-at="2022-09-30T22:14:29 IST" name="exploretheapp" finished-at="2022-09-30T22:14:32 IST" depends-on-methods="testpackage.Logintest.loginintoapp" duration-ms="2844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- exploretheapp -->
+        <test-method is-config="true" signature="quitbrowser()[pri:0, instance:testpackage.Logintest@7674f035]" started-at="2022-09-30T22:14:32 IST" name="quitbrowser" finished-at="2022-09-30T22:14:52 IST" duration-ms="20003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitbrowser -->
+      </class> <!-- testpackage.Logintest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
